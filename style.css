@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Google Sans';
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background: #ff6b6b; 
+    padding: 20px 10%;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 5px 0 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #f1f1f1;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #0f4c81;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6b6b;
+}
+
+.hero {
+    background-image: url('south-korea-2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.content {
+    padding: 40px 10%;
+}
+
+.content h3 {
+    color: #0f4c81;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h4 {
+    margin: 15px;
+    color: #0f4c81;
+}
+
+.card p {
+    margin: 0 15px 15px;
+    color: #666666;
+}
+
+footer {
+    background: #0f4c81;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 5px solid #ff6b6b; 
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #ff6b6b;
+    --df-messenger-message-bot-background: #E7EFFE;
+    --df-messenger-titlebar-background:#ff6b6b;
+    bottom: 16px;
+    right: 16px;
+
+}

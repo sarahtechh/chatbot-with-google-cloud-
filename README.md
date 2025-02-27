@@ -18,5 +18,5 @@ This is a basic chatbot built using Google Cloud services including Vertex AI an
 7. Checked the datastore to see if the data training is done 
 8. Opened Dialogflow to set the chatbot up and changed the settings (ie some intents, custom payloads, css and generative fallback)
 9. Test The Chatbot and enable the API to add to a website with some css variations
-10. Created a simple travel front page with HTML and CSS with the ide VSCODE
-11 Start using the chatbot to plan a trip to South Korea!!
+10. Created a simple travel front page with HTML and CSS and deployed the chatbot locally
+11. Start using the chatbot to plan a trip to South Korea!!

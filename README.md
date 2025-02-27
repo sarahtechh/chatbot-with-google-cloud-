@@ -4,7 +4,9 @@ This is a basic chatbot built using Google Cloud services including Vertex AI an
 
 **To view a video of the chatbot in action please <a href="https://medium.com/@sarahtech/south-korea-travel-planning-chatbot-with-google-cloud-ab995e0a8c3c">CLICK HERE</a>**
 
-<img width="1432" alt="South Korea Travel Chatbot" src="https://github.com/user-attachments/assets/36889809-828f-45f4-9aa1-c9ca1e4be1cc" />
+<img width="1432" alt="South Korea Travel Chatbot" src="https://github.com/user-attachments/assets/48668064-c5a4-4677-abc3-29f3fc9cb03c" width="300" height="300"> 
+
+
 
 ## Steps I Took
 1. Create a Google Cloud account
